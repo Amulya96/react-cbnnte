@@ -3,6 +3,11 @@ import './style.css';
 import isEmpty from 'lodash';
 
 class App extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return (
       <div>
